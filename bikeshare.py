@@ -141,13 +141,13 @@ def trip_duration_stats(df):
     start_time = time.time()
 
 
-    """ Taking the travel time in seconds and convering into days, months, minutes, and seconds """
+    """ Takes the travel time in seconds and convering into days, months, minutes, and seconds """
     total_travel_time = df['Trip Duration'].sum()
     total_travel_time = (str(int(total_travel_time//86400)) + 'd ' + str(int((total_travel_time % 86400)//3600)) + 'h ' + str(int(((total_travel_time % 86400) % 3600)//60)) + 'm ' + str(int(((total_travel_time % 86400) % 3600) % 60)) + 's')
 
     print('The total travel time was: ' + total_travel_time)
 
-
+    """ Takes the travel time in seconds and converting them into appropriate time metrics for average """
     mean_travel_time = df['Trip Duration'].mean()
     mean_travel_time = (str(int(mean_travel_time//60)) + 'm ' + str(int(mean_travel_time % 60)) + 's')
     print('The average travel time was: ' + mean_travel_time)
@@ -166,7 +166,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts().to_string()
     print('Here are some stats about the users: \n' + user_types)
 
-
+    """ Counts up the number of males and females for the query """
     try:
         gender_counts = df['Gender'].value_counts().to_string()
         print('Here are the available gender stats for the users: \n' + gender_counts)
