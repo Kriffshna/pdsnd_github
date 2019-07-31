@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+This project was intially created on 7/27/19 and was approved on 7/30/19
 
 ### Project Title
-Replace the Project Title
+Bikeshare Service Data Explorer
 
 ### Description
 Describe what your project is about and what it does
