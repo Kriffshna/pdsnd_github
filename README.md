@@ -10,6 +10,9 @@ This project provides certain time and user stats about the bikeshare service by
 ### Files used
 The files used include: bikeshare.py, chicago.csv, new_york_city.csv, and washington.csv
 
+### Packages used
+The packages used in the project include: pandas, numpy, and datetime
+
 ### Credits
 The following sites helped me complete the project:
 
