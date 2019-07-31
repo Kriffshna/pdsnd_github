@@ -1,5 +1,5 @@
 ### Date created
-This project was intially created on 7/27/19 and was approved on 7/30/19
+This project was intially created on 7/27/19 and was approved on 7/30/19.
 
 ### Project Title
 Bikeshare Service Data Explorer
@@ -12,6 +12,9 @@ The files used include: bikeshare.py, chicago.csv, new_york_city.csv, and washin
 
 ### Packages used
 The packages used in the project include: pandas, numpy, and datetime
+
+### Challenging areas
+The sections that gave me most trouble were properly loading and filtering the data and giving the option to view raw data
 
 ### Credits
 The following sites helped me complete the project:
