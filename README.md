@@ -11,5 +11,9 @@ This project provides certain time and user stats about the bikeshare service by
 The files used include: bikeshare.py, chicago.csv, new_york_city.csv, and washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The following sites helped me complete the project:
 
+programiz.com
+stackoverflow.com
+docs.python.org
+pandas.pydata.org
